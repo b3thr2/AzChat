@@ -6,8 +6,57 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D65E0AA32F36E8C800C34A60 /* SupbaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AA22F36E8C800C34A60 /* SupbaseConfig.swift */; };
+		D65E0AA52F36EA6800C34A60 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AA42F36EA6800C34A60 /* TestView.swift */; };
+		D65E0AA82F36EB6F00C34A60 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = D65E0AA72F36EB6F00C34A60 /* Supabase */; };
+		D65E0AAA2F36EB7A00C34A60 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = D65E0AA92F36EB7A00C34A60 /* Auth */; };
+		D65E0AAC2F36EB8500C34A60 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = D65E0AAB2F36EB8500C34A60 /* Realtime */; };
+		D65E0AAE2F36EB8900C34A60 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = D65E0AAD2F36EB8900C34A60 /* Storage */; };
+		D65E0AB02F36EB9300C34A60 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = D65E0AAF2F36EB9300C34A60 /* PostgREST */; };
+		D65E0AB22F36EC6F00C34A60 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = D65E0AB12F36EC6F00C34A60 /* Functions */; };
+		D65E0AB42F36ED5100C34A60 /* AzCahtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AB32F36ED5100C34A60 /* AzCahtApp.swift */; };
+		D65E0ACD2F36FE5A00C34A60 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0ACC2F36FE4E00C34A60 /* ChatService.swift */; };
+		D65E0ACF2F36FE6B00C34A60 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0ACE2F36FE6400C34A60 /* AuthService.swift */; };
+		D65E0AD12F36FE7F00C34A60 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AD02F36FE7600C34A60 /* StorageService.swift */; };
+		D65E0AD52F37033000C34A60 /* EncryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AD42F37013500C34A60 /* EncryptionService.swift */; };
+		D65E0AD62F37033900C34A60 /* KetchainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AC92F36FD3400C34A60 /* KetchainService.swift */; };
+		D65E0AD72F37035000C34A60 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AB72F36F87C00C34A60 /* User.swift */; };
+		D65E0AD82F37035800C34A60 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AB92F36F99E00C34A60 /* Chat.swift */; };
+		D65E0AD92F37036A00C34A60 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0ABA2F36F9B900C34A60 /* Message.swift */; };
+		D65E0ADD2F37059600C34A60 /* MatchingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0ADC2F37054D00C34A60 /* MatchingViewModel.swift */; };
+		D65E0ADE2F37059E00C34A60 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0ADB2F37042B00C34A60 /* ChatViewModel.swift */; };
+		D65E0AE12F3705D100C34A60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AE02F3705AC00C34A60 /* ContentView.swift */; };
+		D65E0AE32F3705E100C34A60 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AE22F3705D700C34A60 /* SplashView.swift */; };
+		D65E0AE72F37062900C34A60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AE62F37062000C34A60 /* HomeView.swift */; };
+		D65E0AE92F37067F00C34A60 /* MatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AE82F37066F00C34A60 /* MatchingView.swift */; };
+		D65E0AEB2F3706A400C34A60 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AEA2F37069E00C34A60 /* ChatView.swift */; };
+		D65E0AED2F3706D700C34A60 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AEC2F3706CB00C34A60 /* MessageBubble.swift */; };
+		D65E0AEF2F37070900C34A60 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E0AEE2F37070100C34A60 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D624E5D72F368887002C069A /* AzChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65E0AA22F36E8C800C34A60 /* SupbaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupbaseConfig.swift; sourceTree = "<group>"; };
+		D65E0AA42F36EA6800C34A60 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		D65E0AB32F36ED5100C34A60 /* AzCahtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzCahtApp.swift; sourceTree = "<group>"; };
+		D65E0AB72F36F87C00C34A60 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D65E0AB92F36F99E00C34A60 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		D65E0ABA2F36F9B900C34A60 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D65E0AC92F36FD3400C34A60 /* KetchainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetchainService.swift; sourceTree = "<group>"; };
+		D65E0ACC2F36FE4E00C34A60 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
+		D65E0ACE2F36FE6400C34A60 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D65E0AD02F36FE7600C34A60 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		D65E0AD42F37013500C34A60 /* EncryptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionService.swift; sourceTree = "<group>"; };
+		D65E0ADB2F37042B00C34A60 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		D65E0ADC2F37054D00C34A60 /* MatchingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingViewModel.swift; sourceTree = "<group>"; };
+		D65E0AE02F3705AC00C34A60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D65E0AE22F3705D700C34A60 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		D65E0AE62F37062000C34A60 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D65E0AE82F37066F00C34A60 /* MatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingView.swift; sourceTree = "<group>"; };
+		D65E0AEA2F37069E00C34A60 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		D65E0AEC2F3706CB00C34A60 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		D65E0AEE2F37070100C34A60 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65E0AB22F36EC6F00C34A60 /* Functions in Frameworks */,
+				D65E0AAE2F36EB8900C34A60 /* Storage in Frameworks */,
+				D65E0AAC2F36EB8500C34A60 /* Realtime in Frameworks */,
+				D65E0AAA2F36EB7A00C34A60 /* Auth in Frameworks */,
+				D65E0AA82F36EB6F00C34A60 /* Supabase in Frameworks */,
+				D65E0AB02F36EB9300C34A60 /* PostgREST in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +87,14 @@
 		D624E5CE2F368887002C069A = {
 			isa = PBXGroup;
 			children = (
+				D65E0ADF2F3705A200C34A60 /* Views */,
+				D65E0ADA2F37041900C34A60 /* ViewModels */,
+				D65E0ACA2F36FD6600C34A60 /* Services */,
+				D65E0AC72F36FD0100C34A60 /* Encriyption */,
+				D65E0AB62F36F7C100C34A60 /* Models */,
+				D65E0ACB2F36FDCB00C34A60 /* New Group */,
 				D624E5D92F368887002C069A /* AzChat */,
+				D65E0AA62F36EB6F00C34A60 /* Frameworks */,
 				D624E5D82F368887002C069A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +105,75 @@
 				D624E5D72F368887002C069A /* AzChat.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D65E0AA62F36EB6F00C34A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D65E0AB62F36F7C100C34A60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D65E0AB72F36F87C00C34A60 /* User.swift */,
+				D65E0AB92F36F99E00C34A60 /* Chat.swift */,
+				D65E0ABA2F36F9B900C34A60 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D65E0AC72F36FD0100C34A60 /* Encriyption */ = {
+			isa = PBXGroup;
+			children = (
+				D65E0AC92F36FD3400C34A60 /* KetchainService.swift */,
+				D65E0AD42F37013500C34A60 /* EncryptionService.swift */,
+			);
+			path = Encriyption;
+			sourceTree = "<group>";
+		};
+		D65E0ACA2F36FD6600C34A60 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D65E0AA22F36E8C800C34A60 /* SupbaseConfig.swift */,
+				D65E0ACC2F36FE4E00C34A60 /* ChatService.swift */,
+				D65E0ACE2F36FE6400C34A60 /* AuthService.swift */,
+				D65E0AD02F36FE7600C34A60 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D65E0ACB2F36FDCB00C34A60 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D65E0AB32F36ED5100C34A60 /* AzCahtApp.swift */,
+				D65E0AA42F36EA6800C34A60 /* TestView.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D65E0ADA2F37041900C34A60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D65E0ADB2F37042B00C34A60 /* ChatViewModel.swift */,
+				D65E0ADC2F37054D00C34A60 /* MatchingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D65E0ADF2F3705A200C34A60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D65E0AE02F3705AC00C34A60 /* ContentView.swift */,
+				D65E0AE22F3705D700C34A60 /* SplashView.swift */,
+				D65E0AE62F37062000C34A60 /* HomeView.swift */,
+				D65E0AE82F37066F00C34A60 /* MatchingView.swift */,
+				D65E0AEA2F37069E00C34A60 /* ChatView.swift */,
+				D65E0AEC2F3706CB00C34A60 /* MessageBubble.swift */,
+				D65E0AEE2F37070100C34A60 /* ImagePicker.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +196,12 @@
 			);
 			name = AzChat;
 			packageProductDependencies = (
+				D65E0AA72F36EB6F00C34A60 /* Supabase */,
+				D65E0AA92F36EB7A00C34A60 /* Auth */,
+				D65E0AAB2F36EB8500C34A60 /* Realtime */,
+				D65E0AAD2F36EB8900C34A60 /* Storage */,
+				D65E0AAF2F36EB9300C34A60 /* PostgREST */,
+				D65E0AB12F36EC6F00C34A60 /* Functions */,
 			);
 			productName = AzChat;
 			productReference = D624E5D72F368887002C069A /* AzChat.app */;
@@ -94,6 +231,9 @@
 			);
 			mainGroup = D624E5CE2F368887002C069A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D624E5E52F368D0C002C069A /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D624E5D82F368887002C069A /* Products */;
 			projectDirPath = "";
@@ -119,6 +259,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65E0ADE2F37059E00C34A60 /* ChatViewModel.swift in Sources */,
+				D65E0AD62F37033900C34A60 /* KetchainService.swift in Sources */,
+				D65E0AE92F37067F00C34A60 /* MatchingView.swift in Sources */,
+				D65E0AE32F3705E100C34A60 /* SplashView.swift in Sources */,
+				D65E0AEB2F3706A400C34A60 /* ChatView.swift in Sources */,
+				D65E0AE12F3705D100C34A60 /* ContentView.swift in Sources */,
+				D65E0AA52F36EA6800C34A60 /* TestView.swift in Sources */,
+				D65E0AD52F37033000C34A60 /* EncryptionService.swift in Sources */,
+				D65E0AD82F37035800C34A60 /* Chat.swift in Sources */,
+				D65E0AD12F36FE7F00C34A60 /* StorageService.swift in Sources */,
+				D65E0ADD2F37059600C34A60 /* MatchingViewModel.swift in Sources */,
+				D65E0ACD2F36FE5A00C34A60 /* ChatService.swift in Sources */,
+				D65E0AED2F3706D700C34A60 /* MessageBubble.swift in Sources */,
+				D65E0AD92F37036A00C34A60 /* Message.swift in Sources */,
+				D65E0AD72F37035000C34A60 /* User.swift in Sources */,
+				D65E0ACF2F36FE6B00C34A60 /* AuthService.swift in Sources */,
+				D65E0AE72F37062900C34A60 /* HomeView.swift in Sources */,
+				D65E0AEF2F37070900C34A60 /* ImagePicker.swift in Sources */,
+				D65E0AB42F36ED5100C34A60 /* AzCahtApp.swift in Sources */,
+				D65E0AA32F36E8C800C34A60 /* SupbaseConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +505,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D624E5E52F368D0C002C069A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D65E0AA72F36EB6F00C34A60 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D624E5E52F368D0C002C069A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		D65E0AA92F36EB7A00C34A60 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D624E5E52F368D0C002C069A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		D65E0AAB2F36EB8500C34A60 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D624E5E52F368D0C002C069A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		D65E0AAD2F36EB8900C34A60 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D624E5E52F368D0C002C069A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		D65E0AAF2F36EB9300C34A60 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D624E5E52F368D0C002C069A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		D65E0AB12F36EC6F00C34A60 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D624E5E52F368D0C002C069A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D624E5CF2F368887002C069A /* Project object */;
 }

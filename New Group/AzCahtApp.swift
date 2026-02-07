@@ -1,8 +1,8 @@
 //
-//  AzChatApp.swift
+//  AzCahtApp.swift
 //  AzChat
 //
-//  Created by Amal  on 18/08/1447 AH.
+//  Created by Amal  on 19/08/1447 AH.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct AzChatApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestSupabaseView()
         }
     }
 }
